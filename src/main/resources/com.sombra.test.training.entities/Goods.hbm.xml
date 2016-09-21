@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class schema="sombradb" name="com.sombra.test.training.entities.Goods" table="goods">
+        <id name="id" type="java.lang.Long">
+            <column name="id" />
+            <generator class="identity"/>
+        </id>
+        <many-to-one class="com.sombra.test.training.entities.Kind" fetch="join" name="kind" lazy="false">
+            <column name="kind_id" not-null="true"/>
+        </many-to-one>
+        <property name="name" type="string">
+            <column length="45" name="name" not-null="true"/>
+        </property>
+        <property name="image" type="binary">
+            <column name="image" not-null="true"/>
+        </property>
+        <property name="descr" type="string">
+            <column length="5000" name="descr"/>
+        </property>
+        <property name="price" type="java.lang.Long">
+            <column name="price" not-null="true"/>
+        </property>
+    </class>
+</hibernate-mapping>

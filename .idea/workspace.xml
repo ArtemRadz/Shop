@@ -1,7 +1,335 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08d992b7-2752-4914-94df-5296bb4f4466" name="Default" comment="" />
+    <list default="true" id="08d992b7-2752-4914-94df-5296bb4f4466" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.xhtml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/templates/footer.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/templates/genres.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/templates/header.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/templates/letters.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/templates/library.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/templates/locales.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/templates/logo.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/templates/search.xhtml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/WEB-INF/views/index.xhtml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/applicationContext.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/config/spring/spring-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/spring-security.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/springsecurity.taglib.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/springsecurity.taglib.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/views/login.xhtml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.xhtml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/css/authorization.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/css/authorization.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/css/dialog.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/dialog.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/add.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/add.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/ajax_loading.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/ajax_loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/book.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/book.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/button-right.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/button-right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/button_bg.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/button_bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/close.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/close.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/down-bg.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/down-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/download.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/download.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/edit.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/edit.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/en/logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/en/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/en/upload.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/en/upload.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/eng.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/eng.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/facebook.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/facebook.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/feedback.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/feedback.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/lib.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/lib.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/library.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/library.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/load-pdf.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/load-pdf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/pdf.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/pdf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/pluse.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/pluse.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/read-bg.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/read-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/recycle.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/recycle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/required.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/required.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/ru/logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/ru/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/ru/upload.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/ru/upload.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/rus.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/rus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/search.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/search.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/select-button.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/select-button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/select.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/select.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/splash.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/splash.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/submit.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/submit.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/usa.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/usa.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/user.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/user.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/images/vk.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/images/vk.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/js/library.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/js/library.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_flat_0_2d5972_40x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_0_2d5972_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_flat_0_4f4f4f_40x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_0_4f4f4f_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_flat_100_ffffff_40x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_100_ffffff_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_highlight-hard_80_85b2cb_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-hard_80_85b2cb_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_highlight-hard_80_e3e3e3_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-hard_80_e3e3e3_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_highlight-soft_100_c4c4c4_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-soft_100_c4c4c4_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_highlight-soft_75_85b2cb_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-soft_75_85b2cb_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_inset-hard_65_85b2cb_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_inset-hard_65_85b2cb_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_inset-hard_65_c4c4c4_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_inset-hard_65_c4c4c4_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-bg_inset-soft_95_fef1ec_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-bg_inset-soft_95_fef1ec_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-icons_2d5972_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_2d5972_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_2e83ff_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-icons_38667f_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_38667f_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-icons_3a6983_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_3a6983_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-icons_616161_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_616161_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-icons_898989_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_898989_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/images/ui-icons_ffffff_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces-library/theme.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces-library/theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/charts/charts.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/charts/charts.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/charts/charts.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/charts/charts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/charts/jqplot.txt" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/charts/jqplot.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/clock/clock.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/clock/clock.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/clock/clock.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/clock/clock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/colorpicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/colorpicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/colorpicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/colorpicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_background.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_background.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_hex.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hex.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_hsb_b.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hsb_b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_hsb_h.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hsb_h.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_hsb_s.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hsb_s.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_indic.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_indic.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_overlay.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_overlay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_rgb_b.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_rgb_b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_rgb_g.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_rgb_g.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_rgb_r.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_rgb_r.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/colorpicker/images/colorpicker_select.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_select.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/dock/assets/iepngfix.htc" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/dock/assets/iepngfix.htc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/dock/dock.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/dock/dock.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/dock/dock.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/dock/dock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/dynamiccontent.properties" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/dynamiccontent.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/editor/editor.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/editor/editor.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/editor/editor.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/editor/editor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/editor/images/buttons.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/editor/images/buttons.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/editor/images/toolbar.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/editor/images/toolbar.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/fileupload/fileupload.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/fileupload/fileupload.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/fileupload/fileupload.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/fileupload/fileupload.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/fileupload/ie-anim.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/fileupload/ie-anim.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/fileupload/readme.txt" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/fileupload/readme.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/forms/password-meter.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/forms/password-meter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/galleria/galleria.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/galleria/galleria.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/galleria/galleria.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/galleria/galleria.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/gmap/gmap.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/gmap/gmap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/hotkey/hotkey.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/hotkey/hotkey.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/idlemonitor/idlemonitor.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/idlemonitor/idlemonitor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/imagecompare/handle.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecompare/handle.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/imagecompare/imagecompare.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecompare/imagecompare.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/imagecompare/lt-small.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecompare/lt-small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/imagecompare/rt-small.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecompare/rt-small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/imagecropper/crop.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecropper/crop.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/imagecropper/imagecropper.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecropper/imagecropper.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/imagecropper/imagecropper.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imagecropper/imagecropper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/imageswitch/imageswitch.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/imageswitch/imageswitch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/jquery/extensions.txt" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/jquery/extensions.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/jquery/jquery-plugins.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/jquery/jquery-plugins.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/jquery/jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/jquery/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/keyboard/keyboard.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/keyboard/keyboard.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/keyboard/keyboard.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/keyboard/keyboard.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/layout/layout.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/layout/layout.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/layout/layout.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/layout/layout.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/lightbox/images/loading.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/lightbox/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/log/icons.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/log/icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/log/log.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/log/log.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/log/log.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/log/log.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/log/panel.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/log/panel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/messages/messages.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/messages/messages.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/mindmap/mindmap.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/mindmap/mindmap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/mousewheel/jquery.mousewheel.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/mousewheel/jquery.mousewheel.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/photocam/jscam.swf" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/photocam/jscam.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/photocam/photocam.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/photocam/photocam.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/photocam/photocam.swf" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/photocam/photocam.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/primefaces.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/primefaces.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/primefaces.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/primefaces.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/printer/printer.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/printer/printer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/push/push.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/push/push.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/raphael/raphael.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/raphael/raphael.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/rating/delete.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/rating/delete.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/rating/rating.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/rating/rating.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/rating/star.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/rating/star.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/css/authorization.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/authorization.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/css/dialog.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/css/dialog.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/css/main.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/css/main.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/add.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/add.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/ajax_loading.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/ajax_loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/book.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/book.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/button-right.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/button-right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/button_bg.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/button_bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/close.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/close.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/down-bg.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/down-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/download.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/download.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/edit.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/edit.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/en/logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/en/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/en/upload.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/en/upload.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/eng.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/eng.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/facebook.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/facebook.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/feedback.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/feedback.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/lib.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/lib.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/library.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/library.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/load-pdf.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/load-pdf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/pdf.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/pdf.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/pluse.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/pluse.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/read-bg.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/read-bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/recycle.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/recycle.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/required.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/required.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/ru/logo.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/ru/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/ru/upload.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/ru/upload.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/rus.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/rus.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/search.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/search.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/select-button.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/select-button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/select.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/select.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/splash.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/splash.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/submit.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/submit.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/usa.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/usa.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/user.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/user.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/images/vk.jpg" afterPath="$PROJECT_DIR$/src/main/webapp/resources/images/vk.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/js/library.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/js/library.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_0_2d5972_40x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_flat_0_2d5972_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_0_4f4f4f_40x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_flat_0_4f4f4f_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_flat_100_ffffff_40x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_flat_100_ffffff_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-hard_80_85b2cb_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_highlight-hard_80_85b2cb_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_highlight-hard_80_c4c4c4_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-hard_80_e3e3e3_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_highlight-hard_80_e3e3e3_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-soft_100_c4c4c4_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_highlight-soft_100_c4c4c4_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_highlight-soft_75_85b2cb_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_highlight-soft_75_85b2cb_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_inset-hard_65_85b2cb_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_inset-hard_65_85b2cb_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_inset-hard_65_c4c4c4_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_inset-hard_65_c4c4c4_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-bg_inset-soft_95_fef1ec_1x100.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-bg_inset-soft_95_fef1ec_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-icons_2d5972_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_2d5972_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-icons_2e83ff_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_2e83ff_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-icons_38667f_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_38667f_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-icons_3a6983_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_3a6983_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-icons_616161_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_616161_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-icons_898989_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_898989_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-icons_cd0a0a_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_cd0a0a_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/images/ui-icons_ffffff_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces-library/theme.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces-library/theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/charts/charts.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/charts/charts.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/charts/charts.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/charts/charts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/charts/jqplot.txt" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/charts/jqplot.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/clock/clock.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/clock/clock.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/clock/clock.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/clock/clock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/colorpicker.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/colorpicker.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/colorpicker.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/colorpicker.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_background.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_background.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hex.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_hex.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hsb_b.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_hsb_b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hsb_h.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_hsb_h.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_hsb_s.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_hsb_s.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_indic.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_indic.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_overlay.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_overlay.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_rgb_b.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_rgb_b.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_rgb_g.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_rgb_g.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_rgb_r.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_rgb_r.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/colorpicker/images/colorpicker_select.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/colorpicker/images/colorpicker_select.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/dock/assets/iepngfix.htc" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/dock/assets/iepngfix.htc" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/dock/dock.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/dock/dock.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/dock/dock.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/dock/dock.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/dynamiccontent.properties" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/dynamiccontent.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/editor/editor.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/editor/editor.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/editor/editor.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/editor/editor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/editor/images/buttons.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/editor/images/buttons.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/editor/images/toolbar.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/editor/images/toolbar.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/fileupload/fileupload.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/fileupload/fileupload.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/fileupload/fileupload.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/fileupload/fileupload.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/fileupload/ie-anim.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/fileupload/ie-anim.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/fileupload/readme.txt" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/fileupload/readme.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/forms/password-meter.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/forms/password-meter.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/galleria/galleria.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/galleria/galleria.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/galleria/galleria.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/galleria/galleria.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/gmap/gmap.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/gmap/gmap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/hotkey/hotkey.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/hotkey/hotkey.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/idlemonitor/idlemonitor.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/idlemonitor/idlemonitor.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/imagecompare/handle.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecompare/handle.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/imagecompare/imagecompare.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecompare/imagecompare.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/imagecompare/lt-small.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecompare/lt-small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/imagecompare/rt-small.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecompare/rt-small.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/imagecropper/crop.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecropper/crop.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/imagecropper/imagecropper.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecropper/imagecropper.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/imagecropper/imagecropper.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imagecropper/imagecropper.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/imageswitch/imageswitch.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/imageswitch/imageswitch.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/jquery/extensions.txt" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/jquery/extensions.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/jquery/jquery-plugins.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/jquery/jquery-plugins.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/jquery/jquery.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/jquery/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/keyboard/keyboard.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/keyboard/keyboard.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/keyboard/keyboard.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/keyboard/keyboard.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/layout/layout.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/layout/layout.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/layout/layout.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/layout/layout.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/lightbox/images/loading.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/lightbox/images/loading.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/log/icons.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/log/icons.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/log/log.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/log/log.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/log/log.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/log/log.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/log/panel.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/log/panel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/messages/messages.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/messages/messages.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/mindmap/mindmap.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/mindmap/mindmap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/mousewheel/jquery.mousewheel.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/mousewheel/jquery.mousewheel.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/photocam/jscam.swf" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/photocam/jscam.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/photocam/photocam.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/photocam/photocam.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/photocam/photocam.swf" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/photocam/photocam.swf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/primefaces.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/primefaces.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/primefaces.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/primefaces.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/printer/printer.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/printer/printer.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/push/push.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/push/push.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/raphael/raphael.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/raphael/raphael.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/rating/delete.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/rating/delete.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/rating/rating.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/rating/rating.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/rating/star.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/rating/star.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/ring/ring.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/ring/ring.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/ring/ring.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/ring/ring.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/schedule/schedule.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/schedule/schedule.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/schedule/schedule.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/schedule/schedule.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/sheet/sheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/sheet/sheet.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/sheet/sheet.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/sheet/sheet.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/spacer/dot_clear.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/spacer/dot_clear.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/stack/stack.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/stack/stack.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/stack/stack.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/stack/stack.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/terminal/terminal.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/terminal/terminal.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/terminal/terminal.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/terminal/terminal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/tree/images/line.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/tree/images/line.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/treetable/images/toggle-collapse-dark.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/treetable/images/toggle-collapse-dark.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/treetable/images/toggle-collapse-light.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/treetable/images/toggle-collapse-light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/treetable/images/toggle-expand-dark.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/treetable/images/toggle-expand-dark.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/treetable/images/toggle-expand-light.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/treetable/images/toggle-expand-light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/watermark/watermark.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/watermark/watermark.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/resources/primefaces/watermark/watermark.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/watermark/watermark.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/ring/ring.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/ring/ring.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/ring/ring.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/ring/ring.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/schedule/schedule.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/schedule/schedule.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/schedule/schedule.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/schedule/schedule.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/sheet/sheet.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/sheet/sheet.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/sheet/sheet.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/sheet/sheet.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/spacer/dot_clear.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/spacer/dot_clear.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/stack/stack.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/stack/stack.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/stack/stack.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/stack/stack.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/terminal/terminal.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/terminal/terminal.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/terminal/terminal.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/terminal/terminal.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/tree/images/line.gif" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/tree/images/line.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/treetable/images/toggle-collapse-dark.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/treetable/images/toggle-collapse-dark.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/treetable/images/toggle-collapse-light.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/treetable/images/toggle-collapse-light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/treetable/images/toggle-expand-dark.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/treetable/images/toggle-expand-dark.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/treetable/images/toggle-expand-light.png" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/treetable/images/toggle-expand-light.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/watermark/watermark.css" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/watermark/watermark.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/resources/primefaces/watermark/watermark.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/primefaces/resources/primefaces/watermark/watermark.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Test_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Test_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test.iml" afterPath="$PROJECT_DIR$/Test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/config/spring/applicationContext.xml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/config/spring/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/config/spring/dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/config/spring/dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/config/spring/spring-security.xml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/config/spring/spring-security.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/footer.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/footer.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/genres.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/genres.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/header.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/header.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/letters.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/letters.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/library.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/library.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/locales.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/locales.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/logo.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/logo.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/search.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/templates/search.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/views/index.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/views/index.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/views/login.xhtml" afterPath="$PROJECT_DIR$/out/artifacts/Test_war_exploded/WEB-INF/views/login.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+    </list>
     <ignored path="Test.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,51 +345,79 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Test" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/controllers/MainController.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-security.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/spring-security.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="459">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.xhtml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.xhtml">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="1581">
+              <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <file leaf-file-name="LibraryFacade.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/objects/LibraryFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+            <state relative-caret-position="68">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KindDAOImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/impl/KindDAOImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoodsDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/impl/GoodsDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#1981#1982#0" expanded="false" />
+                <element signature="e#2035#2036#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dispatcher-servlet.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="27" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -72,12 +428,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
-        <option value="jsf" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
+        <option value="jsf" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -87,14 +446,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/WEB-INF/home.xhtml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-        <option value="$PROJECT_DIR$/web/home.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/style.css" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/web/header.xhtml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/templates/genres.xhtml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/templates/header.xhtml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/templates/letters.xhtml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/templates/locales.xhtml" />
@@ -104,18 +455,48 @@
         <option value="$PROJECT_DIR$/web/index.xhtml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/springsecurity.taglib.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/templates/login.xhtml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/controllers/controllers.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring/applicationContext.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring/controllers.xhtml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring/controllers.xml" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/login.xhtml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/controllers/MainController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/config/spring/spring-security.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/login.xhtml" />
+        <option value="$PROJECT_DIR$/web/lan.xhtml" />
+        <option value="$PROJECT_DIR$/web/locales.xhtml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/beans/TestBean.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/interfaces/LibraryDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/impl/LibraryDaoImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/index.xhtml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/com.sombra.test.training.entities/Goods.hbm.xml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Temp1_LibraryFlow_24.zip/LibraryFlow_24/src/main/java/ru/javabegin/training/springlibrary/entities/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/entities/Goods.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/interfaces/KindDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/entities/Kind.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/kinds.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/applicationContext.xml" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Temp1_JsfLibrary_14.zip/JsfLibrary_14/src/java/ru/javabegin/training/web/db/DataHelper.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/impl/HibernateUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/spring-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/impl/KindDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/footer.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/genres.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/header.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/locales.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/logo.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/search.xhtml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/impl/GoodsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/library.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.xhtml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sombra/test/training/objects/LibraryFacade.java" />
       </list>
     </option>
   </component>
@@ -139,11 +520,33 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1456" />
     <option name="height" value="876" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JPA issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JpaAttributeTypeInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -152,7 +555,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -170,6 +573,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -199,7 +603,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -217,29 +643,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -261,47 +673,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,6 +725,134 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="training" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -352,11 +860,10 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -364,56 +871,27 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.14965986" />
     <property name="project.structure.side.proportion" value="0.45454544" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="5f86eb80-7265-4f88-82d2-30390bd2e271" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../IPhone6_silver_frontface.png" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Artem\Desktop\Test\web\WEB-INF\views" />
-      <recent name="C:\Users\Artem\Desktop\Test\web\WEB-INF" />
-      <recent name="C:\Users\Artem\Desktop\Test\web\WEB-INF\templates" />
-      <recent name="C:\Users\Artem\Desktop\Test\web" />
-      <recent name="C:\Users\Artem\Desktop\Test\web\resources" />
+      <recent name="C:\Users\Artem\Desktop\Test\src\main\java\com\sombra\test\training\objects" />
+      <recent name="C:\Users\Artem\Desktop\Test\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\Artem\Desktop\Test\src\main\webapp\WEB-INF\views" />
+      <recent name="C:\Users\Artem\Desktop\Test\src\main\webapp" />
+      <recent name="C:\Users\Artem\Desktop\Test\src\main\resources\com.sombra.test.training.entities" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.sombra.test.training.entities" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Artem\Desktop\Test\web\WEB-INF\locales" />
     </key>
   </component>
-  <component name="RunManager" selected="GlassFish Server.GlassFish 4.1.0">
-    <configuration default="false" name="index.xhtml" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M9" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/index.xhtml" />
-      <deployment>
-        <artifact name="Test:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_xhtml_Test" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="Test:war exploded" />
-        </option>
-      </method>
-    </configuration>
+  <component name="RunManager" selected="GlassFish Server.GlassFish4.1">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -761,6 +1239,28 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -853,8 +1353,7 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="GlassFish 4.1.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.0" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Test_war_exploded" />
+    <configuration default="false" name="GlassFish4.1" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.1.0" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Test:war exploded">
@@ -925,15 +1424,9 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="GlassFish Server.GlassFish 4.1.0" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.xhtml" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="GlassFish Server.GlassFish4.1" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.xhtml" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -948,12 +1441,26 @@
       <workItem from="1473863023709" duration="11326000" />
       <workItem from="1473934932190" duration="4531000" />
       <workItem from="1473940152625" duration="17101000" />
-      <workItem from="1474026204748" duration="11009000" />
+      <workItem from="1474026204748" duration="15056000" />
+      <workItem from="1474048114619" duration="6191000" />
+      <workItem from="1474110999585" duration="13345000" />
+      <workItem from="1474131103548" duration="465000" />
+      <workItem from="1474132382327" duration="8611000" />
+      <workItem from="1474188637879" duration="4879000" />
+      <workItem from="1474208143509" duration="5009000" />
+      <workItem from="1474227075161" duration="429000" />
+      <workItem from="1474229908115" duration="21471000" />
+      <workItem from="1474354867316" duration="11991000" />
+      <workItem from="1474389155660" duration="344000" />
+      <workItem from="1474389846203" duration="2445000" />
+      <workItem from="1474394116627" duration="393000" />
+      <workItem from="1474397177098" duration="1334000" />
+      <workItem from="1474447940983" duration="1356000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43967000" />
+    <option name="totallyTimeSpent" value="126277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -969,36 +1476,37 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29704303" sideWeight="0.51504296" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22922637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31451613" sideWeight="0.484957" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49426934" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.50287354" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29166666" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29166666" sideWeight="0.484957" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24928367" sideWeight="0.49335864" order="4" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5066414" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2997312" sideWeight="0.49712643" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24856733" sideWeight="0.54079694" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24856733" sideWeight="0.45920303" order="5" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5066414" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1014,7 +1522,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/beans/TestBean.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="51" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1023,319 +1539,323 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.2.Final/hibernate-core-5.2.2.Final.jar!/org/hibernate/SessionFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.sombra.test.training.entities/Kind.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="15" selection-end-column="69" />
-          <folding />
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com.sombra.test.training.entities/Goods.hbm.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="47" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/controllers/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1054">
-          <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="34" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/search.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/home.xhtml" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/faces-config.xml" />
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JSF/lib/jsf-support.jar!/resources/schemas/ee7/tld/html_basic.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="7904" column="4" selection-start-line="7904" selection-start-column="4" selection-end-line="7904" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/home.xhtml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/User.java" />
-    <entry file="file://$PROJECT_DIR$/web/resources/css/style.css" />
-    <entry file="file://$PROJECT_DIR$/web/header.xhtml" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/genres.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="54" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/footer.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/header.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/letters.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/library.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/logo.xhtml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/search.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="40" column="37" selection-start-line="40" selection-start-column="37" selection-end-line="40" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Новая папка/sombra/src/main/java/com/sombra/test/training/controllers/ImageController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_60/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14080">
-          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1227">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="85">
+          <caret line="5" column="124" selection-start-line="5" selection-start-column="124" selection-end-line="5" selection-end-column="124" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/controllers/MainCotroller.java" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_SpringSecurity_4.zip/SpringSecurity_4/src/main/java/ru/javabegin/training/HomeController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/interfaces/GoodsDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_SpringSecurity_4.zip/SpringSecurity_4/src/main/java/ru/javabegin/training/processors/MyBeanPostProcessor.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/interfaces/KindDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/springsecurity.taglib.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/springsecurity.taglib.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
           <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_JsfLibrary_14.zip/JsfLibrary_14/src/java/ru/javabegin/training/web/entity/HibernateUtil.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_JsfLibrary_14.zip/JsfLibrary_14/src/java/ru/javabegin/training/web/controllers/GenreController.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_JsfLibrary_14.zip/JsfLibrary_14/src/java/ru/javabegin/training/web/filters/HibernateSession.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_JsfLibrary_14.zip/JsfLibrary_14/src/java/ru/javabegin/training/web/controllers/BookListController.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_JsfLibrary_14.zip/JsfLibrary_14/src/java/ru/javabegin/training/web/db/DataHelper.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_JsfLibrary_22.zip/JsfLibrary_22/src/java/ru/javabegin/training/web/controllers/BookListController.java" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_JsfLibrary_22.zip/JsfLibrary_22/src/java/ru/javabegin/training/web/models/BookListDataModel.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-annotations/3.5.6-Final/hibernate-annotations-3.5.6-Final.jar!/org/hibernate/cfg/AnnotationConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="99" column="13" selection-start-line="99" selection-start-column="13" selection-end-line="99" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/mysql/mysql-connector-java/6.0.3/mysql-connector-java-6.0.3-sources.jar!/com/mysql/jdbc/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-tx-4.3.1.RELEASE.jar!/org/springframework/transaction/annotation/Transactional.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.2.2.Final/hibernate-core-5.2.2.Final.jar!/org/hibernate/SharedSessionContract.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/spring-security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/controllers.xhtml" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/controllers.xml" />
-    <entry file="file://$PROJECT_DIR$/web/login.jsp" />
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/impl/HibernateUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.1.RELEASE.jar!/org/springframework/web/servlet/config/spring-mvc-4.3.xsd">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.1.RELEASE.jar!/org/springframework/web/servlet/view/InternalResourceView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="627" column="12" selection-start-line="627" selection-start-column="12" selection-end-line="627" selection-end-column="12" />
-          <folding />
+        <state relative-caret-position="160">
+          <caret line="68" column="0" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/dispatcher-servlet.xml">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.1.RELEASE.jar!/org/springframework/web/servlet/view/AbstractView.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="160">
+          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/primefaces/primefaces/6.0/primefaces-6.0.jar!/META-INF/primefaces-p.taglib.xml">
+    <entry file="jar://E:/Programming java/glassfish-4.1/glassfish4/glassfish/modules/javax.servlet-api.jar!/javax/servlet/ServletRequestWrapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="8411" column="8" selection-start-line="8411" selection-start-column="8" selection-end-line="8411" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="160">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/templates/locales.xhtml">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.1.RELEASE.jar!/org/springframework/web/context/request/async/StandardServletAsyncWebRequest.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding />
+        <state relative-caret-position="160">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.1.3.RELEASE/spring-security-config-4.1.3.RELEASE.jar!/org/springframework/security/config/spring-security-4.1.xsd">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.1.RELEASE.jar!/org/springframework/web/context/request/async/WebAsyncUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="1294" column="6" selection-start-line="1294" selection-start-column="6" selection-end-line="1294" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/login.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="21" column="54" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/config/spring/spring-security.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="340">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/views/index.xhtml">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-web-4.3.1.RELEASE.jar!/org/springframework/web/context/request/async/WebAsyncManager.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="160">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.1.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
+        <state relative-caret-position="245">
+          <caret line="484" column="0" selection-start-line="484" selection-start-column="0" selection-end-line="484" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-webmvc-4.3.1.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="425" column="0" selection-start-line="425" selection-start-column="0" selection-end-line="425" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/397e18fc/5f86eb80-7265-4f88-82d2-30390bd2e271/sombradb.goods">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/shope.xhtml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/kinds.xhtml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/footer.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/header.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/letters.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/locales.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="25" column="86" selection-start-line="25" selection-start-column="86" selection-end-line="25" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/genres.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="57" selection-start-line="17" selection-start-column="57" selection-end-line="17" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/logo.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="50" selection-start-line="35" selection-start-column="50" selection-end-line="35" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/search.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="24" column="61" selection-start-line="24" selection-start-column="61" selection-end-line="24" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1088">
+          <caret line="23" column="85" selection-start-line="23" selection-start-column="85" selection-end-line="23" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/controllers/MainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="170">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#373#374#0" expanded="true" />
             <element signature="e#403#404#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/impl/GoodsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1981#1982#0" expanded="false" />
+            <element signature="e#2035#2036#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/library.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/dao/impl/KindDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1581">
+          <caret line="99" column="36" selection-start-line="99" selection-start-column="36" selection-end-line="99" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sombra/test/training/objects/LibraryFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/config/spring/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="27" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1373,7 +1893,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.45454544" />
               </list>
             </option>
           </splitter-proportions>
@@ -1385,7 +1905,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.45454544" />
               </list>
             </option>
           </splitter-proportions>
@@ -1393,12 +1913,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Test</last-edited>
+          <last-edited>Hibernate|Test</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.45454544" />
               </list>
             </option>
           </splitter-proportions>
@@ -1422,7 +1941,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.45454544" />
               </list>
             </option>
           </splitter-proportions>
